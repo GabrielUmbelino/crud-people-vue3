@@ -5,7 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore ."
+    "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore .",
+    "cypress": "npx cypress open"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
@@ -16,6 +17,7 @@
     "axios": "^0.21.1",
     "bulma": "^0.9.2",
     "bulma-o-steps": "^1.1.0",
+    "cypress": "^6.6.0",
     "vue": "^3.0.5",
     "vue-router": "^4.0.4",
     "vue-the-mask": "^0.11.1",
