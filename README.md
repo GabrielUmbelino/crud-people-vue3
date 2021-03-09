@@ -36,4 +36,6 @@ npm install # Installs project's dependencies
 
 npm run dev # Starts the project at http://localhost:3000
 
+npm run cypress # Run tests on cypress
+
 ```
