@@ -52,7 +52,6 @@
       const fetchPersonList = async (skip?: number, limit?: number) => {
         try {
           loading.value = true
-          personListLength.value = await personService.getPersonCount()
           personList.value = await personService.get(skip, limit)
           loading.value = false
         } catch (error) {
